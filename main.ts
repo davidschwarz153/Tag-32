@@ -71,3 +71,11 @@ for (const [key,[value]] of favoriteBands){
         console.log(`Band: ${key}, Member: ${value}, Length: ${value.length}`);
     }
 }
+
+//:                             
+
+const friendsNames = ["Georg", "Anass", "Elaine", "Hakan", "Eric", "Kim", "Sergio"]
+
+for (const el of friendsNames){
+    console.log(el);
+}
